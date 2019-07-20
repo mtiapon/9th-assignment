@@ -1,0 +1,191 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+.one {
+    padding: 20px 0;
+   
+
+}
+
+
+.two{
+
+
+}
+
+nav {
+    padding-top: 42px;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    
+    display: inline;
+    margin: 0 auto;
+    color: black;
+    padding: 12px 11px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    padding-top: 26px;
+}
+
+
+
+
+
+.banner h1 {
+    border: 1px solid black;
+    font-size: 29px;
+    height: 40px;
+    margin-top: 135px;
+    margin-right: 114px;
+    background: #252323a3;
+    color: #fff;
+}
+.banner p {
+    padding-right: 50px;
+    line-height: 18px;
+}
+
+.btn {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 118px;
+    padding: 9px 38px;
+    margin-bottom: 284px;
+}
+
+.car-content{
+	background-color: #fff;
+	height: 290px;
+	}
+
+.content{
+
+}
+.content h1 {
+    padding: 24px 0;
+    font-size: 42px;
+}
+.content-pic{
+	position:relative;
+
+}
+.content-pic-two {
+    position: absolute;
+    top: 37px;
+    left: 40%;
+}
+.cars-title{
+	background-color: #3c3434;
+	height: 400px;
+}
+.title {
+    padding: 46px 0;
+    color: #fff;
+}
+.text {
+    padding: 10px 0;
+    margin: 0px -15px;
+}
+.title-pic {
+    top: 65px;
+}
+
+.button {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-top: 89px;
+    margin-left: 0;
+}
+footer{
+	background-color: red;
+	height: 100px;
+
+}
+footer h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+    padding: 35px 0;
+}
+
+
+
+
+
+/* Media query*/
+/*Mobile device*/
+
+@media (min-width: 248px) and (max-width:398px ){
+    .container-fluid{
+
+    }
+    header{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+
+}
+.one-img{
+
+}
+.banner h1 {
+    margin: 97px 0;
+}
+.btn{
+    cursor: pointer;
+    display: block;
+    margin: 53px;
+}
+.content h1 {
+    padding: 2px 0px;
+    font-size: 29px;
+}
+.title {
+    padding: 77px 0px;
+    color: #fff;
+    margin: -44px 1px;
+    height: 286px;
+}
+.title h1 {
+    font-size: 32px;
+}
+.text {
+    padding: 0px;
+    margin: 3px -6px;
+    display: block;
+}
+.button {
+    cursor: pointer;
+    margin: 17px 78px;
+}
+.car-content {
+    background-color: #fff;
+    height: 314px;
+}
+
+}
+
+
+
+

@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header {
+    height: 125px;
+    border-bottom: 7px solid #afa7a7;
+}
+.one {
+    padding: 20px 0;
+   
+
+}
+
+
+.two{
+
+
+}
+
+nav {
+    padding-top: 42px;
+    display: block;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 auto;
+    color: #22738f;
+    padding: 12px 11px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    padding-top: 26px;
+}
+hr {
+    color: grey;
+    border-bottom: 3px solid;
+}
+
+.about{
+    background-color: #fff;
+  
+
+}
+.about h1 {
+    padding: 40px 0;
+}
+.first {
+    font-size: 16px;
+    display: block;
+    margin: 7px 0 17px -1px;
+}
+
+.title{
+    background-color: #fff;
+
+}
+.pic-title {
+    background-color: #fff;
+    position: relative;
+    padding: 37px 0px;
+}
+.dikki {
+    top: -236px;
+    left: 18%;
+}
+
+.pera {
+    display: block;
+    margin: 17px 6px;
+}
+
+footer{
+    background-color: red;
+    height: 100px;
+
+}
+footer h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+    padding: 35px 0;
+    color: #fff;
+}
+
+
+
+
+/*Media query*/
+/*Mobile device*/
+@media (min-width: 248px) and (max-width: 398px){
+    .one {
+    padding: 3px 0px;
+}
+nav {
+    display: block;
+    margin: -30px auto;
+}
+
+
+
+
+
+
+}
